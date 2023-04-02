@@ -16,7 +16,7 @@ class Posts extends Component
         return view('livewire.posts');
     }
 
-    public function craete()
+    public function create()
     {
         $this->resetInputFields();
         $this->openModal();

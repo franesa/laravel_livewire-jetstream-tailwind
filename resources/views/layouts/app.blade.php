@@ -14,6 +14,9 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
+        <!-- Add Tailwind -->
+        <script src="https://cdn.tailwindcss.com/?plugins=forms"></script>
+
         <!-- Styles -->
         @livewireStyles
     </head>
